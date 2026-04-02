@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎮 EDUZONA — AI Ta'lim Platformasi <a herf="https://t.me/ilhomjumayev">Jumayev Ilhom</a>
+# 🎮 EDUZONA — AI Ta'lim Platformasi [![Telegram](https://img.icons8.com/color/48/telegram-app.png)](https://t.me/ilhomjumayev) Jumayev Ilhom
 
 **O'qituvchilar uchun AI yordamida interaktiv o'yinlar va video darslar yaratish platformasi**
 
