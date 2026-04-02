@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(php artisan db:seed --class=RefreshPromptsSeeder)",
+      "Bash(python3 -c \":*)",
+      "Bash(php artisan tinker --execute=\"App\\\\Models\\\\PromptVersion::with\\(''template''\\)->get\\([''id'',''template_id'',''version'',''status'']\\)->each\\(function\\($p\\){ echo $p->id.'' | ''.$p->template->code.'' | v''.$p->version.'' | ''.$p->status.PHP_EOL; }\\);\")",
+      "Bash(/c/xampp/mysql/bin/mysql -u root games -e \"SELECT pv.id, gt.code, pv.version, pv.status, LEFT\\(pv.prompt_text, 120\\) as preview FROM prompt_versions pv JOIN game_templates gt ON pv.template_id = gt.id ORDER BY gt.code LIMIT 40;\")",
+      "Bash(tasklist /FI \"IMAGENAME eq php.exe\")",
+      "Bash(tasklist)",
+      "Bash(powershell -ExecutionPolicy Bypass -File \"c:\\\\xampp\\\\htdocs\\\\games\\\\register-task.ps1\")",
+      "Bash(powershell -Command \"Start-ScheduledTask -TaskName ''EDUZONE-QueueWorker''\")",
+      "Bash(powershell -Command \"Get-ScheduledTask -TaskName ''EDUZONE-QueueWorker'' | Select-Object TaskName,State\")",
+      "Bash(php /c/xampp/htdocs/games/artisan tinker --execute=\"echo json_encode\\(App\\\\Models\\\\Category::all\\([''id'',''name'',''slug'']\\)->toArray\\(\\)\\);\")",
+      "Bash(php /c/xampp/htdocs/games/artisan tinker --execute=\"echo json_encode\\(App\\\\Models\\\\Category::all\\([''id'',''name'']\\)->toArray\\(\\)\\);\")"
+    ]
+  }
+}

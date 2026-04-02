@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(php artisan:*)",
+      "Bash(composer require:*)",
+      "Bash(npm install:*)",
+      "Bash(find /c/xampp/htdocs/games/resources/js/Pages -type f -name *.vue)",
+      "Bash(grep -rn \"defineProps\" /c/xampp/htdocs/games/resources/js/Pages/*.vue)",
+      "Bash(find /c/xampp/htdocs/games/app/Services -type f -name *.php)",
+      "Bash(find /c/xampp/htdocs/games -maxdepth 2 -type d ! -path */.* ! -path */node_modules/* ! -path */vendor/* ! -path */storage/* ! -path */public/*)",
+      "Bash(npm run:*)",
+      "Bash(start \"Queue Worker\" cmd /k \"php artisan queue:work --tries=3 --timeout=120 --sleep=3\")",
+      "Bash(echo \"Queue worker started with PID: $!\")",
+      "Bash(echo \"PID: $!\")",
+      "Bash(ls /c/xampp/htdocs/games/*.bat)",
+      "Bash(start \"\" \"C:\\\\xampp\\\\htdocs\\\\games\\\\queue-worker.bat\")",
+      "Bash(php -r ':*)"
+    ],
+    "additionalDirectories": [
+      "\\tmp"
+    ]
+  }
+}
