@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎮 EDUZONA — AI Ta'lim Platformasi
+# 🎮 EDUZONA — AI Ta'lim Platformasi <a herf="https://t.me/ilhomjumayev">Jumayev Ilhom</a>
 
 **O'qituvchilar uchun AI yordamida interaktiv o'yinlar va video darslar yaratish platformasi**
 
@@ -454,7 +454,5 @@ Muallif ruxsatisiz foydalanish, nusxalash yoki tarqatish taqiqlanadi.**
 
 Made with ❤️ for Uzbek teachers <a herf="https://t.me/ilhomjumayev">Jumayev Ilhom</a>
 
-<a herf="">Taqdimot 1</a>
-<a herf="https://prezi.com/view/VkxcSgpXmH7nqnWWwwKq/?referral_token=EpnNEjlnB3FN">Taqdimot 2</a>
 
 </div>
